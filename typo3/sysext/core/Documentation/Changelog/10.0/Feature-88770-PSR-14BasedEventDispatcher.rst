@@ -61,8 +61,8 @@ a more robust or future-proof API.
 
 Registration:
 
-If an extension author wants to provide a custom Event Listener, an according entry with the tag
-`event.listener` can be added to the `Configuration/Services.yaml` file of that extension.
+Use the`event.listener` tag to register your custom Event Listener. 
+Add this configuration in the `Configuration/Services.yaml` file of that extension.
 
 Example:
 
