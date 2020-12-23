@@ -20,8 +20,8 @@ solutions for hooking into existing PHP code (Frameworks, CMS and the like).
 PSR-14 consists of four components:
 
 1. An `EventDispatcher` object that is used to trigger an Event. TYPO3 has a custom EventDispatcher
-implementation for now, however all EventDispatchers of all frameworks are implementing
-:php:`Psr\EventDispatcher\EventDispatcherInterface` thus it is possible to replace the event
+implementation. All EventDispatchers of all frameworks are implementing
+:php:`Psr\EventDispatcher\EventDispatcherInterface` as well as TYPO3. Thus it is possible to replace the event
 dispatcher with another. The EventDispatcher's main method :php:`dispatch()` is called in TYPO3 Core
 or extensions, that receives a PHP object and is then handed to all available listeners.
 
