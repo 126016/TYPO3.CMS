@@ -800,7 +800,7 @@ The translation of ``form definitions`` works differently to the translation
 of the backend aspects. Currently, there is no graphical user interface
 supporting the translation process.
 
-If the backend editor needed to translate the ``form definition`` properties
+If a backend editor needs to translate the ``form definition`` properties
 in the same way the backend aspects are translated, he/ she would see long
 and unwieldy translation keys while editing a form within the ``form editor``.
 In order to avoid this, rather the element properties are translated than
